@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>KalradyaCoop</AssemblyName>
+    <RootNamespace>KalradyaCoop</RootNamespace>
+    <Version>1.4.0</Version>
+    <DefaultItemExcludes>$(DefaultItemExcludes);bin*/**;obj*/**;publish/**;.research/**</DefaultItemExcludes>
+    <ApplicationIcon>Assets\Kalradya.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+  <ItemGroup><Compile Remove=".research\**\*.cs" /><Resource Include="Assets\calradia-campaign.png" /></ItemGroup>
+</Project>

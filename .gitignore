@@ -1,0 +1,22 @@
+# Derleme, araştırma ve bilgisayara özel test çıktıları
+bin*/
+obj*/
+publish*/
+.research/
+.vs/
+verification-*.json
+*.user
+*.suo
+*.log
+*.partial
+
+# Oyun kayıtları, ayarlar ve indirilmiş paketler depoya girmez
+*.sav
+*.kalradya
+server-config.json
+session.json
+settings.json
+*.zip
+*.7z
+*.exe
+*.dll

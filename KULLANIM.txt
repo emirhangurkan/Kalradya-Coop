@@ -1,0 +1,32 @@
+KALRADYA CO-OP — KISA KULLANIM
+
+ÖNCE
+Herkeste Bannerlord 1.4.8, Coop 0.1.6 ve kendi Tailscale hesabı olmalı.
+Programda rolünü seç → Diğer işlemler → İlk kurulum → Eksikleri hazırla.
+İlk kez sunucu kurarken koşulları okuyup kabul et, gerekirse tekrar hazırla.
+
+SEN AÇACAKSAN
+Ben açacağım → Oyunu başlat.
+Oyunda Join Co-op Sandbox → Direct: programdaki “Oyunda sen bunu kullan”
+adresini ve şifreyi gir. IP ve şifreyi birlikte kopyala → arkadaşlarına gönder.
+İlk kez katılacaklara kendi bilgisayarının Tailscale davetini de gönder.
+
+ARKADAŞIN AÇACAKSA
+Mesajını kopyala → Arkadaşıma katılacağım → Mesajı buraya yapıştır.
+Gerekirse Tailscale davetini kendi hesabınla kabul et → Oyunu aç.
+Oyunda Join Co-op Sandbox → Direct: onun IP ve şifresini gir → Join.
+
+KAYIT VE YENİ OYUN
+Yeni oyun başlat, ayrı sefer açar; Kayıt seç ile eski sefere dönebilirsin.
+Sunucu kapalıyken Zorluk ve oyun ayarları'ndan ayarları değiştirebilirsin.
+Bitince Kaydet ve kapat'a bas. Bilgisayar kapanırsa sunucu da kapanır.
+
+BAŞKA BİRİ SUNUCUYU AÇACAKSA
+Eski ev sahibi: Diğer işlemler → Kaydı arkadaşıma gönder.
+Yeni ev sahibi: Diğer işlemler → Arkadaşımdan gelen kaydı aç → Oyunu başlat.
+Herkes yeni ev sahibinin IP'sini, şifresini ve gerekirse Tailscale davetini kullanır.
+
+GÜVENLİK
+Şifre ve davetleri yalnızca güvendiğin kişilerle paylaş. Program, kurulum veya
+bağlantı için yönetici izni isteyebilir ve Windows ağ ayarlarını değiştirebilir.
+Uygulama kaynak kodu MIT lisanslıdır; oyun, Coop ve Tailscale ayrı lisanslıdır.

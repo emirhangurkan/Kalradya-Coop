@@ -1,0 +1,16 @@
+<Window x:Class="KalradyaCoop.SettingsWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="Kalradya • Ayarlar ve davet" Width="640" Height="660" ResizeMode="NoResize" WindowStartupLocation="CenterOwner" Style="{StaticResource {x:Type Window}}">
+    <StackPanel Margin="28">
+        <TextBlock Text="Davet ve sefer" Style="{StaticResource Heading}" FontSize="26" Margin="0,0,0,8"/>
+        <TextBlock Text="Tailscale paylaşımını bir kez ekle, her seferinde kopyala." Foreground="{StaticResource Muted}" FontSize="13" Margin="0,0,0,22"/>
+        <TextBlock Text="TAILSCALE DAVET LİNKİ" Style="{StaticResource Caption}" Margin="0,0,0,6"/>
+        <TextBox x:Name="InviteText" Height="42"/>
+        <Grid Margin="0,10,0,4"><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="10"/><ColumnDefinition/></Grid.ColumnDefinitions><Button Content="Tailscale paylaşımını aç" Click="OpenShare_Click"/><Button Grid.Column="2" Content="Panodan yapıştır" Click="Paste_Click"/></Grid>
+        <TextBlock Text="Kendi bilgisayarın → Share → Copy invite link → Reusable link" Foreground="{StaticResource Muted}" FontSize="11" Margin="0,5,0,22"/>
+        <Grid><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="16"/><ColumnDefinition Width="140"/></Grid.ColumnDefinitions><StackPanel><TextBlock Text="OYUN ŞİFRESİ" Style="{StaticResource Caption}" Margin="0,0,0,6"/><TextBox x:Name="GamePassword" Height="42"/></StackPanel><StackPanel Grid.Column="2"><TextBlock Text="OTOMATİK KAYIT (DK)" Style="{StaticResource Caption}" Margin="0,0,0,6"/><TextBox x:Name="Autosave" Height="42"/></StackPanel></Grid>
+        <TextBlock x:Name="ConfigHint" Text="Şifre ve kayıt aralığı sonraki açılışta uygulanır." Foreground="{StaticResource Muted}" FontSize="11" Margin="0,7,0,15"/>
+        <CheckBox x:Name="PreventSleepBox" Content="Sunucu açıkken bilgisayar uykuya geçmesin"/>
+        <CheckBox x:Name="DisconnectBox" Content="Kaydet ve kapat, Tailscale bağlantısını da kessin"/>
+        <TextBlock x:Name="ErrorText" Foreground="#F3ABAE" FontSize="12" TextWrapping="Wrap" Height="48" Margin="0,10,0,0"/>
+        <Grid><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="10"/><ColumnDefinition/></Grid.ColumnDefinitions><Button Content="Vazgeç" Click="Cancel_Click"/><Button Grid.Column="2" Content="Kaydet" Style="{StaticResource Primary}" Click="Save_Click" Padding="16,10"/></Grid>
+    </StackPanel>
+</Window>
