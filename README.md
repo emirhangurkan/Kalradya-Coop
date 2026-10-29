@@ -17,7 +17,7 @@ Steam ve Epic kurulumları desteklenir; iki farklı mağaza arasında bağlantı
 
 ## 1. İlk kurulum
 
-1. GitHub sayfasındaki **Releases / Sürümler** bölümünde yayımlanan Kalradya Co-op ZIP dosyasını indirip çıkar. İçindeki programı aç.
+1. [Kalradya Co-op'u indir](https://github.com/emirhangurkan/Kalradya-Coop/releases/latest) sayfasından ZIP dosyasını indirip çıkar. İçindeki programı aç.
 2. Oyunu açacaksan **Ben açacağım**, katılacaksan **Arkadaşıma katılacağım** seç. **Diğer işlemler → İlk kurulum → Eksikleri hazırla** yolunu izle.
 3. Program oyunu bulamazsa oyun klasörünü seç. İstenen Windows izinlerini inceleyip onayla ve Tailscale'e kendi hesabınla giriş yap.
 4. Sunucuyu ilk kez kuruyorsan paket indirildikten sonra kullanım koşullarını oku ve kabul et; ardından gerekirse **Eksikleri hazırla** düğmesine tekrar bas.
